@@ -10,7 +10,3 @@ export default {
     components: {LoginPart}
 }
 </script>
-
-<style>
-</style>
-  

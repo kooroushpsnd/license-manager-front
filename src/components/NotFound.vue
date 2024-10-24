@@ -3,7 +3,7 @@
         <div class="notfound">
             {{ errorMessage }} Does Not Exists
         </div>
-        <div class="routerlink"><router-link to="/" id="link">Go To Home Page</router-link></div>
+        <router-link to="/" id="link">Go To Home Page</router-link>
     </div>
 </template>
 
@@ -11,7 +11,6 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  components: {},
     name:"NotFound",
     computed: {
         errorMessage(){
@@ -22,32 +21,23 @@ export default defineComponent({
 </script>
 
 <style>
-.boxnotfound{
-    display: flex;
-    justify-content: space-between;
-}
-.notfound{
-    background: #0b6dff;
-    border: 0;
-    padding: 10px 20px;
-    color: white;
-    border-radius: 20px;
-    max-width: 420px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.routerlink{
-    background: #0b6dff;
-    border: 0;
-    padding: 10px 20px;
-    border-radius: 20px;
-    max-width: 420px;
-}
-#link{
-    color: white;
-    text-decoration: none;
-}
-#link:hover{
-    color: black;
-}
+    .boxnotfound{
+        color: #f6efd1;
+        background-color:#00A9E0;
+        margin-right: auto;
+        margin-left: auto;
+        width: 30%;
+        border-radius: 12px;
+        margin-top: 10%;
+        font-size: 30px;
+        padding: 20px;
+    }
+    #link{
+        text-decoration: none;
+        color: #000000;
+        line-height: 2.6;
+    }
+    #link:hover{
+        color: #6fddd4;
+    }
 </style>

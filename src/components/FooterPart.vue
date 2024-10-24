@@ -24,7 +24,7 @@ export default defineComponent ({
         return{
             name: "Kooroush Pasandideh",
             github: "kooroushpsnd",
-            url: 'https://github.com/kooroushpsnd/Crypto-App-front',
+            url: 'https://github.com/kooroushpsnd/license-manager-front',
             telegramLink: "https://t.me/kpthemighty",
             TelegramId: "kpthemighty",
             Bot_Telegram: "https://t.me/LicenseView_bot",

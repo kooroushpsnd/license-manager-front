@@ -1,10 +1,9 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginPage from '@/views/LoginPage.vue'
 import SignUpPage from '@/views/SignUpPage.vue'
 import NotFound from '@/components/NotFound.vue'
-import Dashboard from '@/views/Dashboard.vue'
-
+import ProfileView from '@/views/ProfileView.vue'
 
 const routes = [
   {
@@ -26,11 +25,16 @@ const routes = [
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: NotFound
+  },
+  {
+    path: '/profile',
+    name: "profile",
+    component: ProfileView
   }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 

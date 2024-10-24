@@ -1,7 +1,10 @@
 <template>
     <div id="Main">
         <p class="MainData">
-            <span id="welcomeM">Brief Information about the WebSite</span><hr>
+            <span id="welcomeM">Brief Information about the WebSite</span>
+        </p>
+        <hr>
+        <p class="MainData">
             The ultimate solution for managing your licenses with ease and efficiency.<br>
             Whether you're a business professional or an individual, our platform allows you to keep track of all your licenses in one place, ensuring you never miss an expiration date.<br>
             With an intuitive dashboard and real-time notifications, you can view, update, and organize your licenses effortlessly.<br>

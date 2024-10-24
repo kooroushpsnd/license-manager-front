@@ -62,16 +62,16 @@ export default defineComponent({
     #startup{
         max-width: 420px;
         margin: 30px auto;
-        background-color: white;
+        background-color:#00A9E0;
         text-align: left;
         padding: 40px;
         border-radius: 10px;
     }
     label{
-        color: #aaa;
+        color: #000000;
         display: inline-block;
         margin: 25px 0 15px;
-        font-size: 0.6em;
+        font-size: 13px;
         text-transform: uppercase;
         letter-spacing: 1px;
         font-weight: bold;
@@ -82,11 +82,12 @@ export default defineComponent({
         width: 100%;
         box-sizing: border-box;
         border: none;
+        border-radius: 15px;
         border-bottom: 1px solid #ddd;
-        color: #555;
+        color: #000000;
     }
     .create {
-        background: #0b6dff;
+        background: #000000;
         border: 0;
         padding: 10px 20px;
         margin-top: 20px;
@@ -101,11 +102,11 @@ export default defineComponent({
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        background: #0b6dff;
-        border: 0;
-        padding: 10px 20px;
-        margin-top: 20px;
-        color: white;
+        background-color:#00A9E0;
+        padding: 20px;
+        font-size: 25px;
+        margin-top: 40px;
+        color: #f6efd1;
         border-radius: 20px;
         max-width: 420px;
     }

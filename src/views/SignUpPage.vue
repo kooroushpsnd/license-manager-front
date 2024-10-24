@@ -10,7 +10,4 @@ export default {
     components: {SignUpPart}
 }
 </script>
-
-<style>
-</style>
   

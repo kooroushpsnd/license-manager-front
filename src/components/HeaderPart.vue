@@ -1,5 +1,5 @@
 <template>
-    <div id="header">
+    <div id="headerM">
         <div class="buttonH auth" v-if="!showauth" @click="profile">
             My Profile
         </div>
@@ -44,7 +44,7 @@
     </script>
       
     <style>
-    #header{
+    #headerM{
         display: flex;
         justify-content: space-between;
         font-size: 25px;
